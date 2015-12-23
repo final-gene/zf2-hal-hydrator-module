@@ -1,0 +1,45 @@
+{
+    "name": "final-gene/zf-hal-hydrator-module",
+    "description": "ZF-HAL specific hydrator",
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://satis.final-gene.de"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Frank Giesecke",
+            "email": "frank.giesecke@final-gene.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "zendframework/zend-config": "^2.5",
+        "zendframework/zend-modulemanager": "^2.5",
+        "zfcampus/zf-hal": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "zendframework/zend-filter": "^2.5",
+        "zendframework/zend-form": "^2.5",
+        "zendframework/zend-i18n": "^2.5",
+        "zendframework/zend-inputfilter": "^2.5",
+        "zendframework/zend-log": "^2.5",
+        "zendframework/zend-serializer": "^2.5",
+        "zendframework/zend-stdlib": "^2.5",
+        "zendframework/zend-test": "^2.5",
+        "zendframework/zend-validator": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "FinalGene\\ZfHalHydratorModule\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FinalGene\\ZfHalHydratorModuleTest\\": "tests/src"
+        }
+    }
+}
