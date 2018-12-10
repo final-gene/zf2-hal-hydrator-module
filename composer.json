@@ -1,13 +1,8 @@
 {
     "name": "final-gene/zf-hal-hydrator-module",
     "description": "ZF-HAL specific hydrator",
-    "license": "proprietary",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://satis.final-gene.de"
-        }
-    ],
+    "homepage": "https://github.com/final-gene/zf2-hal-hydrator-module",
+    "license": "MIT",
     "authors": [
         {
             "name": "Frank Giesecke",
